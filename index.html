@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Today's Matchups</h1>
+    </header>
+
+    <div class="games-container">
+        <section class="date-display">
+            <h2 class="date-value"></h2>
+        </section>
+
+        <section class="ongoing-games">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="game">Game</th>
+                        <th class="time">Time</th>
+                        <th class="pitching">Pitching Matchup</th>
+                    </tr>
+                </thead>
+                <tbody id="ongoing"></tbody>
+            </table>
+        </section>
+
+        <section class="finished-games">
+            <table>
+                <thead>
+                    <tr>
+                        <th class="game">Game</th>
+                        <th class="result">Result</th>
+                        <th class="win">Win</th>
+                        <th class="loss">Loss</th>
+                        <th class="save">Save</th>
+                    </tr>
+                </thead>
+                <tbody id="finished"></tbody>
+            </table>
+        </section>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

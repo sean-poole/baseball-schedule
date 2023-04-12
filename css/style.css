@@ -1,0 +1,126 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model */
+
+* {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Basic Styling */
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    letter-spacing: 0.1em;
+}
+
+header {
+    background-color: #fff;
+    padding: 2em;
+    text-align: right;
+    width: 100%;
+}
+
+.date-display {
+    margin: 1em auto;
+    width: 95%;
+}
+
+.games-container {
+    background-color: #fff;
+    margin: auto;
+    padding: 2em;
+    height: 100vh;
+    width: 95%;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+/* Display Container Styling */
+table {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    font-size: 1em;
+    margin: auto;
+    text-align: left;
+    width: 95%;
+}
+
+/* Table Headers */
+thead {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Table Header Spacing */
+/* tr {
+    border: 1px solid #000;
+} */
+
+th {
+    padding: 0.3em 0.5em;
+}
+
+.ongoing-game,
+.finished-game {
+    width: 40%;
+}
+
+.time {
+    width: 15%;
+}
+
+.pitching {
+    width: 45%;
+}
+
+.result {
+    width: 15%;
+}
+
+.win,
+.loss,
+.save {
+    width: 15%;
+}
+
+/* Table Rows */
+td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.hidden {
+    display: none;
+}
+
+/******************************************
+/* MEDIA QUERIES
+/*******************************************/
+
