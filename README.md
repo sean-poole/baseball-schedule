@@ -3,7 +3,7 @@
 Static website displaying all MLB games scheduled for today.
 
 <p align="center">
-<img src="https://github.com/sean-poole/baseball-schedule/blob/main/preview/baseball-gotd.jpg" width="80%" alt="Baseball schedule>
+<img src="https://github.com/sean-poole/baseball-schedule/blob/main/preview/baseball-gotd.jpg" width="80%" alt="Baseball schedule">
 </p>
 
 ## 🌭 How It's Made: 
