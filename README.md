@@ -3,12 +3,12 @@
 Static website displaying all MLB games scheduled for today.
 
 <p align="center">
-<img src="https://github.com/sean-poole/baseball-schedule/blob/main/preview/baseball-gotd.jpg" width="100%" alt="Baseball schedule>
+<img src="https://github.com/sean-poole/baseball-schedule/blob/main/preview/baseball-gotd.jpg" width="80%" alt="Baseball schedule>
 </p>
 
 ## 🌭 How It's Made: 
 
-**Tech used: JavaScript, HTML, CSS, <a href="https://statsapi.mlb.com/" target="_blank">MLB Stats API</a>
+**Tech Used:** JavaScript, HTML, CSS, <a href="https://statsapi.mlb.com/" target="_blank">MLB Stats API</a>
 
 This site uses the current date to access and format data from the Major League Baseball (MLB) statistics API, in order to provide users with a display of real-time information.
 
