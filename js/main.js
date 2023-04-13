@@ -55,7 +55,7 @@ async function getGameData(gameObj) {
 
 function fillCells(schedule, games) {
     // console.log(schedule);      // First API data
-    console.log(games);         // Second API data
+    // console.log(games);         // Second API data
 
     // Clear any existing rows from the table.
     const ongoingBody = document.getElementById("ongoing");
