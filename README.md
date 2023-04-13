@@ -1,4 +1,4 @@
-# ⚾ Baseball Schedule ⚾ | <a href="https://eclectic-daifuku-2de148.netlify.app" target="_blank">Visit Here</a>
+# ⚾ Baseball Schedule ⚾ | <a href="baseball-matchups.netlify.app" target="_blank">Visit Here</a>
 
 Static website displaying all MLB games scheduled for today.
 
