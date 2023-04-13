@@ -15,7 +15,7 @@ This site uses the current date to access and format data from the Major League 
 
 ## 🧢 Optimization: 
 
-Win / Loss / Save information was unavailable in the APIs used in this project. If time permitted, I would find this data. <br />
+Win / Loss / Save information was unavailable in the APIs used in this project. If time permitted, I would find and include this data. <br />
 Refactor the UI for a cleaner look.
 
 
