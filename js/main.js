@@ -54,7 +54,7 @@ async function getGameData(gameObj) {
 }
 
 function fillCells(schedule, games) {
-    console.log(schedule);      // First API data
+    // console.log(schedule);      // First API data
     console.log(games);         // Second API data
 
     // Clear any existing rows from the table.
@@ -69,8 +69,8 @@ function fillCells(schedule, games) {
         const homeAbbr = games[i].teams.home.abbreviation;
         const awayTeam = games[i].teams.away.name;
         const homeTeam = games[i].teams.home.name;
-        const awayPitcher = games[i].probablePitchers.away.fullName;
-        const homePitcher = games[i].probablePitchers.home.fullName;
+        const awayPitcher = games[i].probablePitchers.away ? games[i].probablePitchers.away.fullName : "TBD";
+        const homePitcher = games[i].probablePitchers.home ? games[i].probablePitchers.home.fullName : "TBD";
         const awayScore = schedule[i].teams.away.score;
         const homeScore = schedule[i].teams.home.score;
         const status = schedule[i].status.detailedState;
